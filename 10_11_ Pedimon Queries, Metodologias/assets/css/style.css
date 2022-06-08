@@ -429,6 +429,7 @@ footer .title {
     width: 50%;
   }
 
+  
   /* Clase 13 - Aplicamos Pseudoelementos/clases al pedi  */
   /* Vamos a hacer un efecto con hover + after, el efecto va a consistir que cuando pase el mouse por encima del elemento me dibuje una linea y desaparezca */
   .item {
@@ -440,7 +441,7 @@ footer .title {
     content: "";
     height: 3px;
     width: 100%;
-    background: var(--blue);
+    background:var(--blue);
     position: absolute;
     bottom: 0;
     left: 0;
