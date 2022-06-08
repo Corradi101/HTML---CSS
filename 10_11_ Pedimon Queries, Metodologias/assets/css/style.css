@@ -444,7 +444,7 @@ footer .title {
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: scaleX (0);
+    transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.15s ease;
     -webkit-transition: transform 0.15s ease;
