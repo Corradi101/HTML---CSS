@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
-/* Position Relative */
-/* article {
+/*Position Relative*/
+ 
+article {
   border: 3px dashed red;
 }
 
+/*
 h1 {
   position: relative;
   top: 50px;
@@ -18,6 +20,7 @@ h1 {
 } */
 
 /* Position Absolute */
+
 div {
   height: 100px;
   width: 100px;

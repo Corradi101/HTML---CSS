@@ -10,26 +10,29 @@ body {
 }
 
 .container {
-  background: cornflowerblue;
-  /* display: flex; */
+  background: lightgray;
+  display: flex; 
+
   /* Despues de activar Flex podemos usar las props de flex */
-  /* flex-direction: row-reverse; */
-  /* flex-direction: row; */
-  /* flex-direction: column; */
-  /* flex-direction: column-reverse; */
+  /*flex-direction: row-reverse; */
+  /*flex-direction: row; */
+  /*flex-direction: column; */
+  /*flex-direction: column-reverse; */
 
   /* Flex wrap por defecto viene no nowrap y apila todo en la misma linea */
-  /* flex-wrap: wrap; */
+
+  /*flex-wrap: wrap; */
   /* Shorthand */
-  /* flex-flow: row wrap; */
+  /*flex-flow: row wrap; */
 
   /* Justify-content CLAVE ESTA EH */
-  /* justify-content: center; */
-  /* justify-content: flex-end; */
-  /* justify-content: flex-start; */
-  /* justify-content: space-between; */
-  /* justify-content: space-around; */
-  /* justify-content: space-evenly; */
+
+  /*justify-content: center; */
+  /*justify-content: flex-end; */
+  /*justify-content: flex-start; */
+  /*justify-content: space-between; */
+  /*justify-content: space-around; */
+  /*justify-content: space-evenly; */
 
   /* Align-Items TAMBIEN CLAVE*/
   /* align-items: center; */
@@ -39,11 +42,11 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  /* align-items: flex-start; */
-  /* align-items: flex-end; */
+  align-items: center; 
+  align-items: flex-start;
+  align-items: flex-end; 
   align-items: center;
-  /* align-content: space-around; */
+  align-content: space-around; 
   gap: 50px;
 }
 
@@ -52,7 +55,7 @@ body {
   border-radius: 5px;
   width: 200px;
   height: 200px;
-  /* margin: 10px; */
+  margin: 10px; 
   display: flex;
   justify-content: center;
   align-items: center;
