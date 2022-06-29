@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: white;
 }
 
 a {
@@ -20,6 +21,7 @@ a {
   align-items: center;
   height: 70vh;
   gap: 5rem;
+  background-color: blue;
 }
 
 .messi {
